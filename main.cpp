@@ -5,12 +5,12 @@
 using namespace std;
 
 /*
-   Based on hand-computational trial (*hah wkwk)
+   Based on hand-computational trial
    every letter in palindromic string 
    will cancel out each other
    and will only return 0 OR 1 character left
    at the end
-   (more like a stack LOL)
+   (more like a stack)
 
    So, i initialize map with every letter as the key
    and each value to be 0
@@ -27,15 +27,14 @@ using namespace std;
       it means that there are more than 1 chars that dont have pair
       hence, there are no permutation of S which is palindromic.
 
-   This might be the best solution so far:
-      Time complexity: O(S)
-      Space complexity: O(1)
+   
+   Time complexity: O(S)
+   Space complexity: O(1)
 */
 
 int *initAlphabeticalMap()
 {
-   //ignoring characters except alphabetical
-   //..well for now
+   //ignoring characters except alphabetical for now
 
    int *c = (int *)malloc(256 * sizeof(int));
    int a = 'a', b = 'A';
