@@ -45,7 +45,7 @@ int *initAlphabeticalMap()
       ++a;
       ++b;
    }
-   //but we mayloop through all ascii if all chars are considered
+   //but we may loop through all ascii if all chars are considered
    return c;
 }
 
