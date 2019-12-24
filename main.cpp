@@ -29,6 +29,7 @@ using namespace std;
 
    This might be the best solution so far:
       Time complexity: O(S)
+      Space complexity: O(1)
 */
 
 int *initAlphabeticalMap()
