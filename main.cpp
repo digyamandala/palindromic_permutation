@@ -34,6 +34,8 @@ using namespace std;
 int *initAlphabeticalMap()
 {
    //ignoring characters except alphabetical
+   //..well for now
+
    int *c = (int *)malloc(256 * sizeof(int));
    int a = 'a', b = 'A';
    while (a <= 'z')
@@ -43,6 +45,7 @@ int *initAlphabeticalMap()
       ++a;
       ++b;
    }
+   //but we mayloop through all ascii if all chars are considered
    return c;
 }
 
