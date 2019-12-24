@@ -6,7 +6,8 @@ using namespace std;
 
 /*
    Based on hand-computational trial (*hah wkwk)
-   every palindromic string will cancel out each other
+   every letter in palindromic string 
+   will cancel out each other
    and will only return 0 OR 1 character left
    at the end
    (more like a stack LOL)
